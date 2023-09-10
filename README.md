@@ -59,4 +59,4 @@ typedef enum
 } crsf_frame_type_e;
 ```
 
-[项目参考自](https://github.com/CapnBry/CRServoF)
+[项目参考自：https://github.com/CapnBry/CRServoF](https://github.com/CapnBry/CRServoF)
