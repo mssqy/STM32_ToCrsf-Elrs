@@ -14,9 +14,9 @@ STM32HAL库解析CRSF(ELRS)协议
 4. **负载（数据）**（Payload）：**根据类型决定（例如RC_channels为22字节）**
 5. **CRC校验**（CRC）：**1字节**
 
-'''
-typedef enum
-{
+```
+ typedef enum
+ {
     CRSF_ADDRESS_BROADCAST = 0x00,
     CRSF_ADDRESS_USB = 0x10,
     CRSF_ADDRESS_TBS_CORE_PNP_PRO = 0x80,
@@ -31,4 +31,4 @@ typedef enum
     CRSF_ADDRESS_CRSF_RECEIVER = 0xEC,
     CRSF_ADDRESS_CRSF_TRANSMITTER = 0xEE,
 } crsf_addr_e;
-'''
+```
