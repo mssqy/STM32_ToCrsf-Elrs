@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"crsf_elrs\startup_stm32f103xe.o"
+"crsf_elrs\main.o"
+"crsf_elrs\gpio.o"
+"crsf_elrs\usart.o"
+"crsf_elrs\stm32f1xx_it.o"
+"crsf_elrs\stm32f1xx_hal_msp.o"
+"crsf_elrs\stm32f1xx_hal_gpio_ex.o"
+"crsf_elrs\stm32f1xx_hal_tim.o"
+"crsf_elrs\stm32f1xx_hal_tim_ex.o"
+"crsf_elrs\stm32f1xx_hal_uart.o"
+"crsf_elrs\stm32f1xx_hal.o"
+"crsf_elrs\stm32f1xx_hal_rcc.o"
+"crsf_elrs\stm32f1xx_hal_rcc_ex.o"
+"crsf_elrs\stm32f1xx_hal_gpio.o"
+"crsf_elrs\stm32f1xx_hal_dma.o"
+"crsf_elrs\stm32f1xx_hal_cortex.o"
+"crsf_elrs\stm32f1xx_hal_pwr.o"
+"crsf_elrs\stm32f1xx_hal_flash.o"
+"crsf_elrs\stm32f1xx_hal_flash_ex.o"
+"crsf_elrs\stm32f1xx_hal_exti.o"
+"crsf_elrs\system_stm32f1xx.o"
+"crsf_elrs\crsf.o"
+"crsf_elrs\crc.o"
+--library_type=microlib --strict --scatter "CRSF_ELRS\CRSF_ELRS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CRSF_ELRS.map" -o CRSF_ELRS\CRSF_ELRS.axf
