@@ -14,7 +14,7 @@ STM32HAL库解析CRSF(ELRS)协议
 4. **负载（数据）**（Payload）：**根据类型决定（例如RC_channels为22字节）**
 5. **CRC校验**（CRC）：**1字节**
    
-- **CRSF协议帧结构**
+**CRSF协议帧结构**
 ```
  typedef enum
  {
